@@ -31,9 +31,14 @@ Este proyecto es un **agregador RSS** desarrollado en Go. Su objetivo es recopil
     ```sh
     ./rss-aggregator
     ```
-2. Accede a la interfaz web en tu navegador:
+2. Crear las variables de entorno:
     ```sh
-    http://localhost:8080
+    PORT=8080
+    DB_URL=postgres://user:pass@localhost:5432/rssagg?sslmode=disable
+    ```
+2. Accede via api rest con el uso de un cliente http tal como curl o thunder client en vs code, ejemplo:
+    ```sh
+    http://localhost:8080/v1/users
     ```
 
 
