@@ -8,6 +8,7 @@ Este proyecto es un **agregador RSS** desarrollado en Go. Su objetivo es recopil
 - **Interfaz Sencilla**: Presenta los artículos de manera clara y organizada.
 - **Configuración Flexible**: Permite agregar, eliminar y gestionar feeds fácilmente mediante la creacion de una API Rest.
 - **Almacenamiento**: Guarda los artículos en una base de datos de postgres.
+- **Autenticación**: Autenticacion gestionada por api keys
 
 ## Instalación
 
